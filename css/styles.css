@@ -1,0 +1,322 @@
+:root {
+    --primary-font-family: "Roboto", sans-serif;
+    --secondary-font-family: "Raleway", sans-serif;
+    --main-title-text: #FFFFFF;
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --tertiary-text-color: #F4F4FD;
+    --color-logo-web: #4D5AE5;
+    --color-logo-header: #2E2F42;
+    --color-logo-footer: #F4F4FD;
+    --accent-color: #404BBF;
+    --background-accent: #404BBF;
+    --background-btn: #4D5AE5;
+    --background-primary: #FFFFFF;
+    --background-secondary: #2E2F42;
+    --background-tertiary:#F4F4FD;
+    --color-text-btn: #4D5AE5;
+    --color-border-card: #E7E9FC;
+}
+
+h1,h2,h3,p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  min-height: auto;
+}
+.button {
+    cursor: pointer;
+}
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;    
+}
+
+.container-header,
+.nav,
+.page-nav,
+.nav-list,
+.nav-list-contact {
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    column-gap: 40px;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+body {
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
+}
+.logo {
+    font-family: var(--secondary-font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    margin-right: 76px;
+}
+.page-header {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.logo-title {
+    color: var( --color-logo-web);
+}
+
+.logo-title-header {
+    color: var(--color-logo-header);
+}
+
+.logo-title-footer {
+    color: var(--color-logo-footer);
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-text-color);
+}
+.page-nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    }
+
+.nav-list-contact {
+    margin-left: auto;
+    column-gap: 40px;
+}
+
+.page-nav .current {
+    color: var(--accent-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+.nav-contact {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--secondary-text-color);
+}
+
+.nav-contact:hover,
+.nav-contact:focus {
+    color: var(--accent-color);
+}
+.section-hero {
+    background-color: var(--background-secondary);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    }
+.main-title {
+    color: var(--main-title-text);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    margin: 0 auto 48px;
+    max-width: 496px;
+}
+.btn-order-service {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background: var(--background-btn);
+    color: var(--main-title-text);
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 32px;
+    border-radius: 4px;
+}
+.btn-order-service:hover,
+.btn-order-service:focus {
+    background-color: var(--background-accent);
+}
+
+.container-description {
+    display: flex;
+    column-gap: 24px;    
+}
+.section-description {
+    padding-bottom: 0;
+}
+.section-our-team {
+    background-color: var(--background-tertiary);
+}
+.section-our-team-list,
+.section-we-are-doing-list {
+    display: flex;
+    column-gap: 24px;
+}
+.title-section {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--primary-text-color);
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.description-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--primary-text-color);
+    margin-bottom: 8px;
+}
+
+.name-member-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--primary-text-color);
+    margin-bottom: 8px;
+}
+
+.description-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--secondary-text-color);
+}
+
+.position-member-team {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--secondary-text-color);
+}
+.member-team-card {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+.page-footer {
+    background-color: var(--background-secondary);
+}
+.page-footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--tertiary-text-color);
+    width: 264px;
+}
+
+.btn-filter {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-text-btn);
+    background-color: var(--background-tertiary);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-filter:hover,
+.btn-filter:focus,
+.btn-filter:active {
+    background-color: var(--background-accent);
+    color: var(--main-title-text);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.container-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+}
+.logo-footer {
+    display: block;
+    margin-bottom: 16px;
+}
+
+.portfolio-page-filter-menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
+
+.portfolio-page {
+padding-bottom: 120px;
+}
+
+.portfolio-page-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+
+.title-under-img {
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-left: 1px solid var(--color-border-card);
+    border-right: 1px solid var(--color-border-card);
+    border-bottom: 1px solid var(--color-border-card);
+}
+.title-projct {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--primary-text-color);
+margin-bottom: 8px;
+}
+.section-filter {
+font-size: 16px;
+line-height: 1.5;
+color: var(--secondary-text-color);
+}
+
