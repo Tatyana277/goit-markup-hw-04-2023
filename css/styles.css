@@ -356,12 +356,14 @@ body {
   margin-right: auto;
   max-width: 1440px;
 }
+
 .page-footer-text {
   font-size: 16px;
   line-height: 1.5;
   color: var(--tertiary-text-color);
-  width: 264px;
+  max-width: 264px;
 }
+
 .logo-footer {
   display: block;
   margin-bottom: 16px;
@@ -387,6 +389,7 @@ body {
     color: var(--main-title-text);
     margin-bottom: 16px;
 }
+
 .social-list-footer {
   display: flex;
   justify-content: center;
